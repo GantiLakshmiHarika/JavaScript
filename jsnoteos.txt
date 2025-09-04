@@ -1,3 +1,4 @@
+->  Basic theory of java script :
 Inventor: Brendan Eich (1995) at Netscape.
 Type: Interpreted, High-level, Lightweight scripting language.
 Engine:V8 (Google Chrome) → compiles JS to machine code.
@@ -7,3 +8,10 @@ Popular Name: JS (JavaScript).
 Initial Names:Mocha → LiveScript → JavaScript.
 Execution: Runs inside browser + also outside (Node.js).
 Features:Just-In-Time (JIT) compilation.
+
+ TIP 1: 
+To get emojis in the output : press windows button and ; button we get emojis click on emoji u need.
+windows+; = emoji hey done macha i got.
+
+-> understanding about console.log() why we use it ?
+
