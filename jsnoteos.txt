@@ -1,0 +1,9 @@
+Inventor: Brendan Eich (1995) at Netscape.
+Type: Interpreted, High-level, Lightweight scripting language.
+Engine:V8 (Google Chrome) → compiles JS to machine code.
+Other engines: SpiderMonkey (Firefox), Chakra (Edge), JavaScriptCore (Safari).
+Standardization: ECMAScript (by ECMA International).
+Popular Name: JS (JavaScript).
+Initial Names:Mocha → LiveScript → JavaScript.
+Execution: Runs inside browser + also outside (Node.js).
+Features:Just-In-Time (JIT) compilation.
