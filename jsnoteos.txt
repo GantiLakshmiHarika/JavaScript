@@ -55,6 +55,8 @@ Tip : console.log( "iam\n learning\n from youtube\n javascript");
      ctrl v - paste
      ctrl x- delete
      ctrl a - select all
+     shift+alt - copying work as ctrl c
+     ctrl+shift+i=opening of console  in browser
 
 -> List of Common Escape Sequences
 Code                	Description
@@ -127,3 +129,25 @@ let somuamount = 3000;
 every literal is an expression.
 ${};
 Single threaded programming language js ?
+js can execute only one instruction at a time hence it is called as single threaded. oka pani leda oka instruction complete chesakane inko instruction cheyagaladhu javascript ade instructions skip cheyaledu andhuku js aneydi single threaded programming language.
+
+
+Synchronous programming = tasks run sequentially (one after another).
+Each operation must finish before the next one starts.
+The program waits (is blocked) until the current task is completed
+Synchronous != single thread 
+Synchronous executes sequantially 
+single thread executes one after another with out any sequence.
+
+Synchronous  vs  Asynchronous 
+🔹 Aspect	                      🕒 Synchronous                    	                  ⚡ Asynchronous
+Execution	               Tasks run one after another (sequential)	               Tasks can run independently / in background
+Blocking	               Program is blocked until the task finishes	             Program is not blocked, continues with other tasks
+Onion dosa story	       Wait for dosa to cook before dropping chelli at school	   Start dosa cooking → meanwhile drop chelli → dosa finishes later.
+
+Comments :  we can write comments using 
+// single line comment 
+/* multiline comment
+comments are  also used for debubbing
+TIP: ctrl+/ -single line comment
+       shift+alt+a - multiline comment.
