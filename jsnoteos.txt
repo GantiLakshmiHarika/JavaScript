@@ -113,3 +113,17 @@ example : let marks =80;
 
 statement: stmt is a instruction which is executed by the js .
 js uses automatic  ASI(Automatic semi colon insertion ) 
+
+Expressions and literals :
+expression is a piece of code which produces a value when evaluated .
+Expression :
+total amount = let totalamount = ramuamount + somuamount;
+returns value when executed so expression  
+
+literals is a fixed value written directlyin a word eg string number arrays object 
+example : literals
+let ramuamount = 2000;
+let somuamount = 3000;
+every literal is an expression.
+${};
+Single threaded programming language js ?
