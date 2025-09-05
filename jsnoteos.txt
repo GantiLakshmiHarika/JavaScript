@@ -54,6 +54,7 @@ Tip : console.log( "iam\n learning\n from youtube\n javascript");
      ctrl c -copy
      ctrl v - paste
      ctrl x- delete
+     ctrl a - select all
 
 -> List of Common Escape Sequences
 Code                	Description
@@ -67,4 +68,48 @@ Code                	Description
 \\	                    Backslash (\) itself
 \' \" \	                Quotes (used to include ', ", or ` inside strings)
 
-Variables keywords and identifiers 
+-> Variables keywords and identifiers 
+How do we create a variable?
+In JavaScript, variables are containers used to store data. To create a variable, we use keywords like let, var, or const.
+Keywords (Reserved Words)
+
+Keywords are special reserved words in JavaScript that have predefined meanings.
+They cannot be used as identifiers (variable or function names).
+
+let → Used to declare block-scoped variables.
+var → Used to declare function-scoped variables (old way).
+const → Used to declare constants (values cannot be reassigned).
+function → Used to declare functions.
+class → Used to define classes.
+if, else, switch → Used for decision-making.
+
+example of let : 
+let ramuamount = 2000;
+let somuamount = 3000;
+let totalamount = ramuamount + somuamount;
+console.log(`ramu's amount`,ramuamount);
+console.log(`somu's amount`,somuamount);
+console.log(`totalamount`,totalamount);
+output :ramu's amount 2000
+somu's amount 3000
+totalamount 5000
+
+identifiers names can be used as reserved words /keywords
+variables are used to store the values .
+
+comaparsion of var ,let, const :
+
+const :value cannot be reaasigned any value when we use const
+  ramumount=5000
+if we use  as const ramuamount = 5000 cannot be change the value 5000 forever if we use const  
+
+var : redeclare of a variable 
+example : var marks =80; 
+          var marks = 40;
+
+let : cannot redeclare the variable
+example : let marks =80; 
+          let marks = 40; // no we cannot done like this  
+
+statement: stmt is a instruction which is executed by the js .
+js uses automatic  ASI(Automatic semi colon insertion ) 
