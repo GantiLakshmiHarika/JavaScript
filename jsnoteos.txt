@@ -15,3 +15,56 @@ windows+; = emoji hey done macha i got.
 
 -> understanding about console.log() why we use it ?
 
+in js every thing is  a object 
+99% objects  1% primitives
+whom Asking - object
+what asking - method
+quantity- aruguments
+console is one of the object in js 
+alert is a global object 
+
+Tip : shift+enter to move to new line in the console .
+alert method is used provide a pop up notification
+
+Datatypes in js:
+1. Primitive data types  
+ Primitive data are the most basic data types. They store single values and are immutable (cannot be changed).
+number → Represents numeric values (e.g., 10, 3.14).
+string → Represents textual data (e.g., "hello", 'world').
+boolean → Represents logical values (true or false).
+null → Represents an intentional absence of value.
+undefined → Represents a variable that has been declared but not assigned a value.
+bigint → Used to represent large integers beyond the range of number.
+symbol → Represents a unique and immutable identifier.
+
+2. Non-Primitive Data Types
+
+Non-primitive data types are complex types. They can hold multiple values and are mutable.
+object → Used to store collections of data in key-value pairs.
+(e.g., { name: "John", age: 25 })
+
+Any thing that enclosed with in single quatation,double quation or backtrick is consider as string 
+" my name is harika"  yes
+"185" yes even though it is a number it is enclosed with in the double quatation it is consider as string in java script.
+
+Tip : console.log( "iam\n learning\n from youtube\n javascript");
+      console.log( `iam learning from youtube javascript`);
+     \n for new line and also ` operator is used for newline in js 
+     ctrl z- undo
+     ctrl c -copy
+     ctrl v - paste
+     ctrl x- delete
+
+-> List of Common Escape Sequences
+Code                	Description
+
+\b	                    Backspace (moves cursor one step back)
+\f	                    Form feed (new page, rarely used today)
+\n	                    New line (moves cursor to the next line)
+\t	                    Horizontal tab (adds a tab space)
+\v                   	Vertical tab (rarely used)
+\r	                    Carriage return (moves cursor to the beginning of the line)
+\\	                    Backslash (\) itself
+\' \" \	                Quotes (used to include ', ", or ` inside strings)
+
+Variables keywords and identifiers 
