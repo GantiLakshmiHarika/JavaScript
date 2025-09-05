@@ -9,3 +9,10 @@ let marks
 console.log(marks);
 marks=50;
 console.log(marks);
+let name ="harika";
+let age=21;
+// using uniary operator 
+age= ++age;
+//console.log(name + "'s age is " + age);
+//working with $ expression 
+console.log(`${name}'s age is ${age}`);

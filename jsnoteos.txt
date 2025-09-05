@@ -150,4 +150,7 @@ Comments :  we can write comments using
 /* multiline comment
 comments are  also used for debubbing
 TIP: ctrl+/ -single line comment
-       shift+alt+a - multiline comment.
+     shift+alt+a - multiline comment.
+
+Brief explanation of Datatypes in js:
+typeof():shows which type of datatype we are using.
