@@ -180,3 +180,11 @@ console.log(python.cost);
 console.log(Book.author);
 console.log(java.price);
 
+converting string to number 
+
+let harika = "40"; 
+console.log(Number(harika)); // we can convert like this also 
+console.log(+harika); // also can convert like this also
+let king = 3n;
+console.log(typeof(king)); // we can also represnts with n.
+
