@@ -154,3 +154,29 @@ TIP: ctrl+/ -single line comment
 
 Brief explanation of Datatypes in js:
 typeof():shows which type of datatype we are using.
+
+OOPS :
+object is a entity which has state and behvaiour.
+state = variables 
+behaviour = functions
+class is a blue print of the object 
+if we use static variable in class we need to acess with the class name 
+example : class Book {
+    static author="natural star";
+    constructor(title, price, cost, author) {
+        this.title = title;
+        this.price = price;
+        this.cost = cost;
+    }
+}
+
+let javascript = new Book("JavaScript Latest Edition", 400, 198, "Natural Star ");
+let python = new Book("python Latest Edition", 200, 195, "Natural Star ");
+let cprogramming =new Book("c programming latest edition",350,128,"natural star ");
+let java = new Book(" java latest edition",321,89,"natural star ");
+console.log(javascript.title);
+console.log(python.cost);
+// acessing the static variable withi the class name 
+console.log(Book.author);
+console.log(java.price);
+
