@@ -188,3 +188,6 @@ console.log(+harika); // also can convert like this also
 let king = 3n;
 console.log(typeof(king)); // we can also represnts with n.
 
+// Boolean
+let bookisgood=true;
+console.log(typeof bookisgood);  // output boolean 

@@ -40,3 +40,14 @@
 // console.log(typeof (BigInt(Sandeep)));
 // let king = 3n;
 // console.log(typeof(king));
+
+// Boolean
+let bookisgood=true;
+console.log(typeof bookisgood);  // output boolean 
+if(bookisgood)
+{
+    console.log(true);
+}
+else{
+    console.log(false);
+}
