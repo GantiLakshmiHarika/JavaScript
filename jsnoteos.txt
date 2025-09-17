@@ -223,3 +223,6 @@ let number="hi this is me";
 console.log(number);
 // but by using the const we can change the dataytype 
 hence js is a dynamic programming language 
+
+asi- automatic semicolon insertion.
+window-global object 

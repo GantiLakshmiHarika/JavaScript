@@ -63,5 +63,4 @@ console.log(dabba);//undefined */
 console.log(dabba); */
 // null it specifes the variables has nothing in it 
 /* let dabba=null;
-console.log(typeof dabba); // typeof null is object */
-
+console.log(typeof dabba); // typeof null is obje
