@@ -42,7 +42,7 @@
 // console.log(typeof(king));
 
 // Boolean
-let bookisgood=true;
+/*  let bookisgood=true;
 console.log(typeof bookisgood);  // output boolean 
 if(bookisgood)
 {
@@ -50,4 +50,18 @@ if(bookisgood)
 }
 else{
     console.log(false);
-}
+}*/
+
+//strings
+/* let good = new String("harika");
+console.log(typeof (good)); */
+
+//undefined 
+/* let dabba;
+console.log(dabba);//undefined */
+/* let dabba=100;
+console.log(dabba); */
+// null it specifes the variables has nothing in it 
+/* let dabba=null;
+console.log(typeof dabba); // typeof null is object */
+

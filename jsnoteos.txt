@@ -201,3 +201,25 @@ if(bookisgood)
 else{
     console.log(false);
 }
+
+// string :
+string is a collection of 0 or more characters
+
+//strings
+/* let good=string("harika"); // built in type method usage
+let goods="harika"; // direct usage
+console.log(typeof (good)); 
+let good = new String("harika"); // object uasage bye new keyword
+console.log(typeof (good));
+// null it specifes the variables has nothing in it 
+let dabba=null;
+console.log(typeof dabba); // typeof null is object
+
+// when we are using let var  we can change the datatype inside the variable 
+example : 
+let number=10;
+console.log(number);
+let number="hi this is me";
+console.log(number);
+// but by using the const we can change the dataytype 
+hence js is a dynamic programming language 
