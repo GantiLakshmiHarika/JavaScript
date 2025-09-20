@@ -240,7 +240,8 @@ let BMI = weight/ ( height ** 2);
 console.log(BMI);
 
 Type conversions :
-converstion of  one type to another type
+
+Converstion of  one type to another type
 implict type converstion : automatically convert by the js engine.
 explict type convertion : manually done by us 
  example :
@@ -293,7 +294,7 @@ ex: console.log("   143    ") - leading spaces
  console.log("1  4  3")- Trailing spaces
  js automatically removes these spaces in js and prints the output.
 
- Boolean Convertion : it treats spaces as a value .
+Boolean Convertion : it treats spaces as a value .
  Values that are intuitively empty become false.
 Non-empty string is always true in JavaScript Boolean conversion.
 example : console.log(Boolean(1));     // true
@@ -303,4 +304,7 @@ console.log(Boolean("0"));   // true
 console.log(Boolean(" "));   // true (string with space)
 console.log(Boolean("   ")); // true (string with multiple spaces)
 console.log(Boolean(""));    // false (empty string)
+
+Operators : 
+
 
