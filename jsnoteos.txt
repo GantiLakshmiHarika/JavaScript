@@ -14,6 +14,7 @@ To get emojis in the output : press windows button and ; button we get emojis cl
 windows+; = emoji hey done macha i got.
 
 -> understanding about console.log() why we use it ?
+console.log-printing stmt in js console global object , log method .
 
 in js every thing is  a object 
 99% objects  1% primitives
@@ -284,4 +285,22 @@ console.log("results:", results, typeof(results));
 console.log("myValues:", myValues, typeof(myValues));
 console.log("bigValu:", bigValu, typeof(bigValu));
 console.log("symbol:", s, typeof(s));
- 
+
+Number converstion Spaces : 2 types 
+1. leading spaces 
+2. Trailing spaces
+ex: console.log("   143    ") - leading spaces 
+ console.log("1  4  3")- Trailing spaces
+ js automatically removes these spaces in js and prints the output.
+
+ Boolean Convertion : it treats spaces as a value .
+ Values that are intuitively empty become false.
+Non-empty string is always true in JavaScript Boolean conversion.
+example : console.log(Boolean(1));     // true
+console.log(Boolean(0));     // false
+console.log(Boolean("1"));   // true
+console.log(Boolean("0"));   // true
+console.log(Boolean(" "));   // true (string with space)
+console.log(Boolean("   ")); // true (string with multiple spaces)
+console.log(Boolean(""));    // false (empty string)
+
