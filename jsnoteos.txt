@@ -379,4 +379,28 @@ let age=2;
 let result = (age<5)?"toodler":"Child";
 console.log(result); //output based on condition 
 
+TIP :
+let  a="10";
+let b=30;
+console.log(a*b);
 
+ let  a=10;
+ let b=30;
+ console.log(a*b);
+ bonus tip :JavaScript automatically converts the string "10" to the number 10.
+
+complete example :
+let a="34";
+let b="4";
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a%b);
+console.log(a/b);
+console.log(a&&b);
+console.log(a>>b);
+console.log(a<<b);
+console.log(a!=b);
+console.log(a||b);
+console.log(~a);
+console.log(~b);

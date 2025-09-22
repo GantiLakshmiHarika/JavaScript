@@ -58,3 +58,23 @@ console.log(value); */
 // let age=2;
 // let result = (age<5)?"toodler":"Child";
 // console.log(result);
+
+// let a="34";
+// let b="4";
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a%b);
+// console.log(a/b);
+// console.log(a&&b);
+// console.log(a>>b);
+// console.log(a<<b);
+// console.log(a!=b);
+// console.log(a||b);
+// console.log(~a);
+// console.log(~b);
+
+
+
+
+
