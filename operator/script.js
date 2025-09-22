@@ -36,3 +36,25 @@ console.log(value); */
 // console.log(a === '10'); 
 // console.log(a != b);  
 // console.log(a !== 10);
+
+//Logical Operators
+// let a=4;
+// let b=5;
+// console.log(a&&b);// both are same returns 1 else 0
+// console.log(a||b);// any one is 1 it shows 1 else 0
+// console.log(a!=b);// reverse the  output value 
+
+//Bitwise operator 
+// let a = 4;
+// let b = 5; 
+// console.log(a & b); 
+// console.log(a | b); 
+// console.log(a ^ b); 
+// console.log(~a);       
+// console.log(~b); 
+
+//Ternary operator
+//tip : condition ? valueIfTrue : valueIfFalse
+// let age=2;
+// let result = (age<5)?"toodler":"Child";
+// console.log(result);
