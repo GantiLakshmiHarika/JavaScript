@@ -73,8 +73,27 @@ console.log(value); */
 // console.log(a||b);
 // console.log(~a);
 // console.log(~b);
+// console.log(b+"hari");
+// console.log(b-"hari");
+//console.log(1+4+"3");
+//console.log("1"+4+3);
+// let  result = 1+(2*5)/2-(10%2);
+// console.log(result);
 
 
+//uniary plus:
 
+// let maths = "80";
+// let social = "40";
+// let english = "60";
+// console.log(maths + social + english); // Output: "804060"
 
+// let maths = +"80";
+// let social = +"40";
+// let english = +"60";
+// console.log(maths + social + english); // Output: 180
 
+// let maths = "80";
+// let social = "40";
+// let english = "60";
+// console.log(+ maths +  + social + + english); // Output: 180

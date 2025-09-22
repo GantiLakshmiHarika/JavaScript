@@ -390,6 +390,7 @@ console.log(a*b);
  bonus tip :JavaScript automatically converts the string "10" to the number 10.
 
 complete example :
+
 let a="34";
 let b="4";
 console.log(a+b);
@@ -404,3 +405,24 @@ console.log(a!=b);
 console.log(a||b);
 console.log(~a);
 console.log(~b);
+console.log(b+"hari");
+console.log(b-"hari");
+console.log(1+4+"3");//here output is 53 number + string = string
+console.log("1"+4+3);// here output is 143 string+number=number
+Tip:uniary plus is used to convert easily from any other datatype to number ...without using builtin Number method in javascript.
+3 different examples :
+
+let maths = "80";
+let social = "40";
+let english = "60";
+console.log(maths + social + english); // Output: "804060"
+
+let maths = +"80";
+let social = +"40";
+let english = +"60";
+console.log(maths + social + english); // Output: 180
+
+let maths = "80";
+let social = "40";
+let english = "60";
+console.log(+ maths ++ social ++english); // Output: 180
